@@ -1,0 +1,21 @@
+/* ============================================ */
+/* GLOBAL AND COMMON STYLES */
+/* ============================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --skye-blue: rgb(207, 233, 243);
+  --black: black;
+  --white: white;
+}
+
+body {
+  background-color: var(--skye-blue);
+}
+
+/* ============================================ */
+/* HEADER AND NAVIGATION */
+/* ============================================ */
