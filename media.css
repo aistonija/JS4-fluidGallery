@@ -74,4 +74,14 @@
   .bg {
     width: 100%;
   }
+
+  /* footer */
+
+  .social-link {
+    margin: 0 5px;
+  }
+
+  footer {
+    padding: 10px;
+  }
 }
