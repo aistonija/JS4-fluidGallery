@@ -13,6 +13,7 @@
     text-align: right;
     width: 40%;
     line-height: 3;
+    z-index: 2;
   }
 
   .links-container {
@@ -24,7 +25,7 @@
 
   .links-container > .link-container {
     padding: 0 20px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
   .dropdown .fa-bars {
@@ -37,6 +38,14 @@
 
   .dropdown:hover .links-container {
     display: block;
+  }
+
+  /* ====================== */
+  /* GALLERY */
+  /* ====================== */
+
+  .bg {
+    width: 50%;
   }
 }
 
@@ -55,5 +64,13 @@
 
   .links-container {
     right: 0;
+  }
+
+  /* ====================== */
+  /* GALLERY */
+  /* ====================== */
+
+  .bg {
+    width: 100%;
   }
 }
