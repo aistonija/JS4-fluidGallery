@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px) {
+  .dropdown {
+    position: relative;
+    text-align: right;
+  }
+
+  .links-container {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    display: none;
+  }
+
+  .dropdown .fa-bars {
+    display: block;
+  }
+
+  .dropdown:hover .links-container {
+    display: block;
+  }
+}

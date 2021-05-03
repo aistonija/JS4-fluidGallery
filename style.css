@@ -19,3 +19,26 @@ body {
 /* ============================================ */
 /* HEADER AND NAVIGATION */
 /* ============================================ */
+
+nav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.dropdown {
+  width: 50%;
+}
+
+.links-container {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  justify-content: space-between;
+}
+
+.dropdown .fa-bars {
+  display: none;
+}
