@@ -1,0 +1,119 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg {
+  width: 25%;
+  background-color: aqua;
+  border: 1px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.layer {
+  position: relative;
+  padding-top: 100%;
+}
+
+.text-content {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 3px 5px #000;
+  text-transform: uppercase;
+}
+
+.text-content h2 {
+  transition: 400ms;
+  font-weight: 400;
+}
+
+.text-content p {
+  visibility: hidden;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.bg:hover .layer {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(138, 143, 155, 0.75)
+  );
+}
+
+.bg:hover .text-content p {
+  visibility: visible;
+}
+
+.bg:hover .text-content h2 {
+  transform: translateY(-20px);
+}
+
+/* ========================== */
+/* backgrounds */
+/* ========================== */
+
+.bg-1 {
+  background-image: url(img/surf-bora-bora.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/icecream.jpg);
+}
+
+.bg-3 {
+  background-image: url(img/3dog.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/4sunset.jpg);
+}
+
+.bg-5 {
+  background-image: url(img/5cat.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/6inlineskate.jpg);
+}
+
+.bg-7 {
+  background-image: url(img/7sea.jpg);
+}
+
+.bg-8 {
+  background-image: url(img/8disco.jpg);
+}
+.bg-9 {
+  background-image: url(img/9forest.jpg);
+}
+.bg-10 {
+  background-image: url(img/10dance.webp);
+}
+.bg-11 {
+  background-image: url(img/11sleep.webp);
+}
+.bg-12 {
+  background-image: url(img/12ribs.jpg);
+}
+.bg-13 {
+  background-image: url(img/13thunder.jpg);
+}
+.bg-14 {
+  background-image: url(img/14vilnius.webp);
+}
+.bg-15 {
+  background-image: url(img/15avatar.webp);
+}
+
+.bg-16 {
+  background-image: url(img/8vulcano.jpg);
+}
