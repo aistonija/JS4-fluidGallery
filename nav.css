@@ -1,0 +1,87 @@
+/* ============================================ */
+/* HEADER AND NAVIGATION */
+/* ============================================ */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  height: 80px;
+  align-items: center;
+}
+
+.logo-container {
+  margin-left: 30px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.fa-camera-retro {
+  margin-right: 20px;
+  font-size: 1.4rem;
+}
+
+.logo-name {
+  font-size: 1.5rem;
+}
+
+.dropdown {
+  height: 100%;
+  width: 50%;
+}
+
+.links-container {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.link-container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container > .link-container > .link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.links-container > .link-container:first-child {
+  background-color: var(--blue);
+}
+
+.links-container > .link-container:first-child > .link,
+.links-container > .link-container:hover > .link {
+  color: var(--white);
+}
+
+/* second link */
+.links-container > .link-container:nth-child(2):hover {
+  background-color: red;
+}
+
+/* third link */
+.links-container > .link-container:nth-child(3):hover {
+  background-color: orange;
+}
+
+/* fourth link */
+.links-container > .link-container:nth-child(4):hover {
+  background-color: green;
+}
+
+/* fifth link */
+.links-container > .link-container:last-child:hover {
+  background-color: darkslateblue;
+}
+
+.dropdown .fa-bars {
+  display: none;
+}
